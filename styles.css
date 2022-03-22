@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{    
+    
+    
+    color: rgb(241, 240, 240); 
+}
+
+h1{
+    
+    Font-Size: 46px;
+}
+
+header{
+    background-color: rgb(19, 81, 97);
+}
+
+header h1{
+    text-align: center;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    Font-Family: 'Oxygen', Sans-Serif;
+    Font-Size: 4rem;
+}
+
+nav{
+    background-color: rgba(17, 142, 173, 68);
+}
+
+.navcontainer{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navitems{
+    Font-Family: 'Noto Serif', Serif;
+    font-size: 2rem;
+    padding: 0 1rem;
+
+
+}
+
+.maincontainer{
+    background-image: url(./Resorses/bgmain.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+}
+
+.boxmain{
+    background-color: rgba(97, 29, 53, 0.8);
+    display: inline-block;
+    padding: 2rem;
+    margin: 4rem 3rem;
+    max-width: 40%;
+}
+
+.verdin{
+    background-color:rgba(19, 81, 97,0.8)
+}
+
+.most{
+    background-color: rgba(173, 161, 26, 0.9);
+}
+
+.boxmain h2{
+    Font-Family: 'Oxygen', Sans-Serif;
+    font-size: 3rem;
+}
+
+.left{
+    margin-left: 60%;
+    margin-top: 5rem;
+    
+}
+
+.boxmain p{
+    Font-Family: Sans-Serif;
+    font-weight: lighter;
+    letter-spacing: 0.05rem;
+    line-height: 1.5rem;
+    padding: 2.5rem 0 8rem;
+    font-size: 1.5rem;
+}
+
+button{
+    padding: 1rem 2rem;
+    background-color: rgba(173, 161, 26, 68);
+    float: right;
+    color: rgb(241, 240, 240);
+    font-size: large;
+
+}
+
+.atividades{
+    background-color: rgb(19, 81, 97);
+    padding: 2rem 0;
+}
+
+.ativ{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.boxativ h3{
+    margin-top: 1rem;
+}
+
+.iconc{
+    border-radius: 85px;
+    background-color: aliceblue;
+    padding: 1rem;
+}
+
+.iconc img{
+    width: 60px;
+    height: 60px;
+}
+
+.imgescrita{
+    background-image: url(./Resorses/escrita.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+}
+
+.imgcontabil{
+    background-image: url(./Resorses/contabil.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+}
+
+.imgdp{
+    background-image: url(./Resorses/folha.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+}
+
+.secs{
+    margin-top: 8rem;;
+}
+
+.funcs{
+    display: flex;
+    gap: 8rem;
+    padding: 1rem 3rem;
+
+
+}
+
+.boxfunc{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 81, 97);
+    overflow: hidden;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0.2rem 0.2rem 2px black;
+    min-height: 300px;
+    max-height: 350px;
+}
+
+.boxfunc img{
+    max-width: 80%;
+    height: 200px;
+    display: block;
+
+}
+
+.boxfunc h2{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.boxfunc p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+footer{
+    padding:1rem;
+    background-color: rgba(173, 161, 26, 68);
+}
